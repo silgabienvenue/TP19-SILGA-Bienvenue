@@ -30,18 +30,18 @@ p{
 
 
 button{
-    padding: 15px;
-    margin-left: 300px;
+    padding: 10px 20px 10px 20px;
+} 
+img{
+    width: 400px;
+    height: 400px;
 }
+
 /* section1 */
 .section-1{
     margin: 50px 300px 50px 300px;
     justify-content: center;
     width: 100%; ;
-}
-.section-1 img{
-    width: 400px;
-    height: 400px;
 }
 .section-1 .container{
     display: flex;
@@ -50,8 +50,7 @@ button{
 .section-1 .container .formular{
     background-color: white;
     width: 80%;
-    /* width:500px ;
-    height: 400px; */
+    /* height: 400px;  */
     padding: 10px;
 }
 .section-1 .container .forms{
@@ -72,8 +71,13 @@ button{
     justify-content: center;
     align-items: center;
 }
-.section-1 .container .form input{
-    font-size: 15px;
+.section-1 .forward{
+    background: rgb(83, 65, 44);
+    font-size: 18px;
+    margin: 50px;
+}
+.section-1 .container .form input, select, option{
+    font-size: 18px;
     width: 70%;
     margin: 10px 0;
     box-sizing: border-box;
@@ -92,10 +96,6 @@ button{
     margin: 50px 300px 50px 300px;
     justify-content: center;
     display: none;
-}
-.section-2 img{
-    width: 400px;
-    height: 400px;
 }
 .section-2 .contain{
     display: flex;
@@ -121,7 +121,7 @@ button{
     align-items: center;
 }
 .section-2 .contain .form input{
-    font-size: 15px;
+    font-size: 18px;
     width: 70%;
     margin: 10px 0;
     box-sizing: border-box;
@@ -142,15 +142,20 @@ button{
     border-bottom: 2px solid gray;
     transition: 0.3s;
 }
+.section-2 .backward{
+    font-size: 18px;
+    background: rgb(83, 65, 44);
+}
+.section-2 .forward-1{
+    font-size: 18px;
+    background: rgb(82, 44, 83);
+}
+
 /* section3 */
 .section-3{
     margin: 50px 300px 50px 300px;
     justify-content: center;
     display: none;
-}
-.section-3 img{
-    width: 400px;
-    height: 400px;
 }
 .section-3 .content{
     display: flex;
@@ -187,7 +192,7 @@ button{
     transition: 0.3s;
 }
 .section-3 .contaent .form option{
-    font-size: 15px;
+    font-size: 18px;
     width: 70%;
     margin: 10px 0;
     box-sizing: border-box;
@@ -196,4 +201,12 @@ button{
     text-decoration: none;
     border-bottom: 2px solid gray;
     transition: 0.3s;
+}
+.section-3 .backward-1{
+    font-size: 18px;
+    background: rgb(83, 65, 44);
+}
+.section-3 .submit{
+    font-size: 18px;
+    background: rgb(82, 44, 83);
 }
