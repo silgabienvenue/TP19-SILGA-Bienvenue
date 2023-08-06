@@ -17,6 +17,7 @@ p{
     color: olivedrab;
     text-align: center;
     font-size: 18px;
+    padding: 5px;
 }
 .defil{
     display: flex;
@@ -25,7 +26,8 @@ p{
     align-items: center;
 }
 .defil i{
-    font-size: 15px;
+    font-size: 17px;
+    padding: 2px;
 }
 
 
@@ -33,175 +35,116 @@ button{
     padding: 10px 20px 10px 20px;
 } 
 img{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height:450px;
 }
-
+.formular{
+    padding: 10px;
+   background-color: white;
+   width: 700px;
+   height: 450px;
+} 
 /* section1 */
 .section-1{
-    margin: 50px 300px 50px 300px;
+     padding: 50px ;
     justify-content: center;
-    width: 100%; ;
+    width: 100%; 
 }
-.section-1 .container{
+  .section-1 .container{
     display: flex;
      width: 100%;
+     justify-content: center;
+     padding: 10px; 
 }
-.section-1 .container .formular{
-    background-color: white;
-    width: 80%;
-    /* height: 400px;  */
-    padding: 10px;
-}
-.section-1 .container .forms{
-    display: flex;
-     width: 900px;
-    margin: 0px auto;
-    /* justify-content: space-between;  */
+
+.section-1 .container .forms {
+     justify-content: center;  
     align-items: center;
-    padding: 60px 10px;
-    border-radius: 18px;
-    box-sizing: border-box; 
+     margin-left: 50px; 
 }
-.section-1 .container .form{
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 600px;
-    justify-content: center;
-    align-items: center;
-}
-.section-1 .forward{
-    background: rgb(83, 65, 44);
-    font-size: 18px;
-    margin: 50px;
-}
-.section-1 .container .form input, select, option{
-    font-size: 18px;
-    width: 70%;
-    margin: 10px 0;
-    box-sizing: border-box;
+  .section-1 .container .forms input, select{
+    margin: 20px;
+    font-size: 17px;
     border: none;
     outline: none;
     text-decoration: none;
     border-bottom: 2px solid gray;
-    transition: 0.3s;
-}
-.section-1 .container .form .check{
-    display: flex;
+}  
+.section-1 .forward{
+    background: rgb(175, 144, 108);
+    font-size: 18px;
+    margin-left: 350px;  
 }
 
 /* section2 */
 .section-2{
-    margin: 50px 300px 50px 300px;
+    padding: 100px ;
+   justify-content: center;
+   width: 100%; 
+   display: none;
+}
+ .section-2 .container{
+   display: flex;
+    width: 100%;
     justify-content: center;
-    display: none;
+    padding: 10px; 
 }
-.section-2 .contain{
-    display: flex;
+
+.section-2 .container .forms {
+    justify-content: center;  
+   align-items: center;
+    margin-left: 50px; 
 }
-.section-2 .contain .formular{
-    background-color: white;
-    width:500px ;
-    height: 400px;
-    padding: 10px;
-}
-.section-2 .contain .forms{
-    display: flex;
-    width:500px ;
-    height: 300px;
-    padding: 10px;
-}
-.section-2.contain .form{
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 600px;
-    justify-content: center;
-    align-items: center;
-}
-.section-2 .contain .form input{
-    font-size: 18px;
-    width: 70%;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    border-bottom: 2px solid gray;
-    transition: 0.3s;
-}
-.section-2 .contain .form option{
-    font-size: 15px;
-    width: 70%;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    border-bottom: 2px solid gray;
-    transition: 0.3s;
-}
+ .section-2 .container .forms input, select{
+   margin: 20px;
+   font-size: 17px;
+   border: none;
+   outline: none;
+   text-decoration: none;
+   border-bottom: 2px solid gray;
+}  
+
 .section-2 .backward{
     font-size: 18px;
     background: rgb(83, 65, 44);
+    margin-left: 300px;
 }
 .section-2 .forward-1{
     font-size: 18px;
-    background: rgb(82, 44, 83);
+    background: rgb(61, 83, 44);
+}
+.section-2 input:nth-child(1){
+    width: 80%;
 }
 
 /* section3 */
 .section-3{
-    margin: 50px 300px 50px 300px;
+    padding: 100px ;
+   justify-content: center;
+   width: 100%;
+   display: none; 
+}
+ .section-3 .container{
+   display: flex;
+    width: 100%;
     justify-content: center;
-    display: none;
+    padding: 10px; 
 }
-.section-3 .content{
-    display: flex;
+
+.section-3 .container .forms {
+    justify-content: center;  
+   align-items: center;
+    margin-left: 50px; 
 }
-.section-3 .content .formular{
-    background-color: white;
-    width:500px ;
-    height: 400px;
-    padding: 10px;
-}
-.section-3 .content .forms{
-    display: flex;
-    width:500px ;
-    height: 300px;
-    padding: 10px;
-}
-.section-3 .content .form{
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 600px;
-    justify-content: center;
-    align-items: center;
-}
-.section-3 .content .form input{
-    font-size: 15px;
-    width: 70%;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    border-bottom: 2px solid gray;
-    transition: 0.3s;
-}
-.section-3 .contaent .form option{
-    font-size: 18px;
-    width: 70%;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    border-bottom: 2px solid gray;
-    transition: 0.3s;
-}
+ .section-3 .container .forms input, select{
+   margin: 20px;
+   font-size: 17px;
+   border: none;
+   outline: none;
+   text-decoration: none;
+   border-bottom: 2px solid gray;
+}  
+
 .section-3 .backward-1{
     font-size: 18px;
     background: rgb(83, 65, 44);
