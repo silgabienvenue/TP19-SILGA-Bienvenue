@@ -8,7 +8,11 @@ body{
     background-color: blanchedalmond;
 }
 h2{
+    margin: 20px 0 10px 200px ;
+    border: 1px solid green;
+    width: 300px;
     font-size: 25px;
+    justify-content: center;
     text-align: center;
     color: rgba(41, 38, 38, 0.849);
     padding: 10px;
@@ -30,39 +34,39 @@ p{
     padding: 2px;
 }
 
-
 button{
     padding: 10px 20px 10px 20px;
+    justify-content: flex-end;
 } 
 img{
     width: 450px;
     height:450px;
 }
-.formular{
-    padding: 10px;
-   background-color: white;
-   width: 700px;
-   height: 450px;
-} 
-/* section1 */
-.section-1{
+
+section{
      padding: 50px ;
     justify-content: center;
     width: 100%; 
 }
-  .section-1 .container{
+  section .container{
     display: flex;
      width: 100%;
      justify-content: center;
      padding: 10px; 
 }
+section .formular{
+    padding: 10px;
+   background-color: white;
+   width: 700px;
+   height: 450px;
+} 
 
-.section-1 .container .forms {
+section .container .forms {
      justify-content: center;  
     align-items: center;
      margin-left: 50px; 
 }
-  .section-1 .container .forms input, select{
+  section .container .forms input, select{
     margin: 20px;
     font-size: 17px;
     border: none;
@@ -70,44 +74,23 @@ img{
     text-decoration: none;
     border-bottom: 2px solid gray;
 }  
+  
 .section-1 .forward{
     background: rgb(175, 144, 108);
     font-size: 18px;
-    margin-left: 350px;  
+     margin-left: 300px; 
 }
 
 /* section2 */
 .section-2{
-    padding: 100px ;
-   justify-content: center;
-   width: 100%; 
    display: none;
 }
- .section-2 .container{
-   display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 10px; 
-}
-
-.section-2 .container .forms {
-    justify-content: center;  
-   align-items: center;
-    margin-left: 50px; 
-}
- .section-2 .container .forms input, select{
-   margin: 20px;
-   font-size: 17px;
-   border: none;
-   outline: none;
-   text-decoration: none;
-   border-bottom: 2px solid gray;
-}  
-
+ 
 .section-2 .backward{
     font-size: 18px;
-    background: rgb(83, 65, 44);
-    margin-left: 300px;
+    background: rgb(206, 158, 103);
+    justify-content: flex-end;
+    margin-left: 400px; 
 }
 .section-2 .forward-1{
     font-size: 18px;
@@ -119,37 +102,66 @@ img{
 
 /* section3 */
 .section-3{
-    padding: 100px ;
-   justify-content: center;
-   width: 100%;
    display: none; 
 }
- .section-3 .container{
-   display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 10px; 
-}
-
-.section-3 .container .forms {
-    justify-content: center;  
-   align-items: center;
-    margin-left: 50px; 
-}
- .section-3 .container .forms input, select{
-   margin: 20px;
-   font-size: 17px;
-   border: none;
-   outline: none;
-   text-decoration: none;
-   border-bottom: 2px solid gray;
+.section-3 .container .forms input{
+    margin-bottom: 50px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    text-decoration: none;
 }  
-
+.section-3 hr{
+    width: 80%;
+    margin: 10px;
+}
 .section-3 .backward-1{
     font-size: 18px;
-    background: rgb(83, 65, 44);
+    background: rgb(189, 144, 92);
+    margin-left: 300px; 
 }
 .section-3 .submit{
     font-size: 18px;
-    background: rgb(82, 44, 83);
+    background: rgb(80, 114, 65);
+}
+@media screen and (max-width:700px) {
+    section{
+        margin: 0;
+        padding: 0;
+    }
+    section .container{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    section .container .formular{
+        width: 700px;
+       height: 750px;
+    }
+     section .container img{
+    width: 700px;
+    height: 700px;
+    } 
+    section .container .forms input, select{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    font-size: 22px;
+    }  
+    section .gender, span{
+        display: flex;
+        font-size: 30px;
+        /* flex-direction: row; */
+    }
+    section h2{
+        font-size: 40px;
+    }
+    section p{
+        font-size: 25px;
+    }
+    .section-1 .forward, .section-2 .forward-1, .section-2 .backward, .section-3 .backward-1, .section-3 .submit{
+        font-size: 20px;
+    }
+    
 }

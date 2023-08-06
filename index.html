@@ -29,12 +29,10 @@
   <input type="text" placeholder="Your Email">
   <input type="text" placeholder="phone number"><br/>
   <input type="text" placeholder="age">
-          <label class="male">
-          <input type="radio" name="gender" value="male" checked>Masculin
+          <label class="gender">
+          <input type="radio" name="gender" id="male" checked>Masculin
           <span class="checkmark"></span>
-          </label>
-          <label class="female">
-          <input type="radio" name="gender" value="female" checked>Feminin<br>
+          <input type="radio" name="gender" id="female" checked>Feminin<br>
           <span class="checkmark"></span>
           </label>
             <select>
@@ -44,8 +42,9 @@
                 <option>Mali</option>
                 <option>RCI</option>
             </select>
-      </div>
-  <a href="#"> <button class="forward"> forward <i class="bi bi-arrow-right"></i> </button></a>
+          </div>
+  <button class="forward"> forward <i class="bi bi-arrow-right"></i> </button>
+
 </div>
 </div>
 </section>
@@ -100,7 +99,8 @@
   </div>
   <P>Send an optional message</P>
   <div class="forms">
-  <input type="text" placeholder="your message here!">
+  <input type="text" placeholder="your message here!"><br/>
+  <hr>
    <label>
         <input type="radio"  checked> please, accept terms and conditions <br>
         <span class="checkmark"></span>
