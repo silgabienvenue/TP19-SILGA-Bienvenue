@@ -124,10 +124,14 @@ section .container .forms {
     font-size: 18px;
     background: rgb(80, 114, 65);
 }
+
 @media screen and (max-width:700px) {
     section{
         margin: 0;
         padding: 0;
+    }
+    h2{
+        width: 350px;
     }
     section .container{
         margin: 0;
@@ -137,7 +141,7 @@ section .container .forms {
     }
     section .container .formular{
         width: 700px;
-       height: 750px;
+       height: 700px;
     }
      section .container img{
     width: 700px;
