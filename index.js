@@ -73,11 +73,23 @@ icon4.addEventListener('click', () => {
 });
 // ----------------------------------------------
 // validation du formulaire****************************
-
+let formul = document.getElementById('form');
+but.addEventListener('click', function (e) {
+    
+     alert('remplir tout le formulaire')
+          e.preventDefault();
+});
+// let put = document.querySelector('text')
+// let fn = document.getElementById('First name');
+// but.addEventListener('click', function (e){
+// fn.innerHTML = '*ce champ est obligatoire'; 
+// fn.style.color = 'red'; 
+// })
+                     
 let form = document.getElementById('form');
-form.addEventListener('.forward', function (e) {
-    let input = document.getElementById('first name');
-    if(input.value.trim() =="") {
+but.addEventListener('click', function (e) {
+    let put = document.getElementById('first name');
+    if(put.value.trim() =="") {
         let vid = document.getElementById('error')
         vid.innerHTML='*ce champ est obligatoire';
         vid.style.color = 'red'

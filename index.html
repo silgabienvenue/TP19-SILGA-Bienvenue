@@ -23,7 +23,7 @@
   <i class="bi bi-record-fill fill-3"></i>
 </div>
   <P>Please fill with your details</P>
-  <div class="forms" id="form">
+  <form action="forms" method="post" id="forms">
   <input type="text" name="First name" placeholder="First Name" id="First name">
   <input type="text" placeholder="last Name" id="last name"><br/>
   <input type="text" placeholder="Your Email" id="email">
@@ -43,7 +43,7 @@
                 <option>RCI</option>
             </select>
             <span id="error"></span>
-          </div>
+          </form>
   <button type="pass" class="forward"> forward <i class="bi bi-arrow-right"></i> </button>
 </div>
 </div>
@@ -64,7 +64,7 @@
     <i class="bi bi-record-fill fill-3"></i>
   </div>
   <P>Please fill with additional info</P>
-  <div class="forms">
+  <form action="forms" method="post" id="forms">
     <input type="text" placeholder="adress"><br/>
     <input type="text" placeholder="city">
     <input type="text" placeholder="zip code"><br/>
@@ -75,7 +75,7 @@
               <option>Mali</option>
               <option>RCI</option>
             </select>
-          </div>
+        </form>
                <a href="#"> <button class="backward"><i class="bi bi-arrow-left"></i> backward</button></a>
               <a href="#"> <button class="forward-1">forward<i class="bi bi-arrow-right"></i> </button></a>
             </div>
@@ -98,18 +98,18 @@
     <i class="bi bi-record-fill fill-3"></i>
   </div>
   <P>Send an optional message</P>
-  <div class="forms">
+  <form action="forms" method="post" id="forms">
   <input type="text" placeholder="your message here!"><br/>
   <hr>
-   <label>
+    <label>
         <input type="radio"  checked> please, accept terms and conditions <br>
         <span class="checkmark"></span>
         </label>
+      </form>
         <a href="#"> <button class="backward-1"> <i class="bi bi-arrow-left"></i> backward</button></a>
-               <a href="#"> <button class="submit"> submit <i class="bi bi-check"></i> </button></a>
-               
-               </div>
-
+        <a href="#"> <button class="submit"> submit <i class="bi bi-check"></i> </button></a>
+</div>
+</div>
 </div>
 </section>
  <script src="index.js"></script>   

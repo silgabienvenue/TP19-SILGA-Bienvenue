@@ -61,12 +61,12 @@ section .formular{
    height: 450px;
 } 
 
-section .container .forms {
+section .container #forms {
      justify-content: center;  
     align-items: center;
      margin-left: 50px; 
 }
-  section .container .forms input, select{
+  section .container #forms input, select{
     margin: 20px;
     font-size: 17px;
     border: none;
@@ -104,7 +104,7 @@ section .container .forms {
 .section-3{
    display: none; 
 }
-.section-3 .container .forms input{
+.section-3 .container #forms input{
     margin-bottom: 50px;
     font-size: 17px;
     border: none;
@@ -147,7 +147,7 @@ section .container .forms {
     width: 700px;
     height: 700px;
     }   
-    section .container .forms input, select{
+    section .container #forms input, select{
     display: flex;
     flex-direction: column;
     width: 95%;
