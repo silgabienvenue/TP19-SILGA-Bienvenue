@@ -23,12 +23,12 @@
   <i class="bi bi-record-fill fill-3"></i>
 </div>
   <P>Please fill with your details</P>
-  <div class="forms">
-  <input type="text" placeholder="First Name">
-  <input type="text" placeholder="last Name"><br/>
-  <input type="text" placeholder="Your Email">
-  <input type="text" placeholder="phone number"><br/>
-  <input type="text" placeholder="age">
+  <div class="forms" id="form">
+  <input type="text" name="First name" placeholder="First Name" id="First name">
+  <input type="text" placeholder="last Name" id="last name"><br/>
+  <input type="text" placeholder="Your Email" id="email">
+  <input type="text" placeholder="phone number" id="number"><br/>
+  <input type="text" placeholder="age" id="age">
           <label class="gender">
           <input type="radio" name="gender" id="male" checked>Masculin
           <span class="checkmark"></span>
@@ -42,8 +42,9 @@
                 <option>Mali</option>
                 <option>RCI</option>
             </select>
+            <span id="error"></span>
           </div>
-  <button class="forward"> forward <i class="bi bi-arrow-right"></i> </button>
+  <button type="pass" class="forward"> forward <i class="bi bi-arrow-right"></i> </button>
 </div>
 </div>
 </section>

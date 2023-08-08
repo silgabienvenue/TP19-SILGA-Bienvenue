@@ -72,3 +72,15 @@ icon4.addEventListener('click', () => {
  step3.style.display ='block';
 });
 // ----------------------------------------------
+// validation du formulaire****************************
+
+let form = document.getElementById('form');
+form.addEventListener('.forward', function (e) {
+    let input = document.getElementById('first name');
+    if(input.value.trim() =="") {
+        let vid = document.getElementById('error')
+        vid.innerHTML='*ce champ est obligatoire';
+        vid.style.color = 'red'
+         e.preventDefault();
+    }
+});

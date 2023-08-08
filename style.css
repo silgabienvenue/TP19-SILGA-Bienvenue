@@ -146,7 +146,7 @@ section .container .forms {
      section .container img{
     width: 700px;
     height: 700px;
-    } 
+    }   
     section .container .forms input, select{
     display: flex;
     flex-direction: column;
